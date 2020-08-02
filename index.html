@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <title>鬼2048</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/main2048.js"></script>
+    <script type="text/javascript" src="js/animation.js"></script>
+    <script type="text/javascript" src="js/assistingFuntions.js"></script>
+</head>
+<body onload="newGame()">
+    <header>
+        <h1>鬼2048</h1>
+        <a id="beginButton" href="javascript:newGame();">开始游戏</a>
+        <p>分数：<span id="score">0</span></p>
+    </header>
+
+    <div id="board">
+        <div class="cell" id="cell00"></div>
+        <div class="cell" id="cell01"></div>
+        <div class="cell" id="cell02"></div>
+        <div class="cell" id="cell03"></div>
+        <br>
+        <div class="cell" id="cell10"></div>
+        <div class="cell" id="cell11"></div>
+        <div class="cell" id="cell12"></div>
+        <div class="cell" id="cell13"></div>
+        <br>
+        <div class="cell" id="cell20"></div>
+        <div class="cell" id="cell21"></div>
+        <div class="cell" id="cell22"></div>
+        <div class="cell" id="cell23"></div>
+        <br>
+        <div class="cell" id="cell30"></div>
+        <div class="cell" id="cell31"></div>
+        <div class="cell" id="cell32"></div>
+        <div class="cell" id="cell33"></div>
+    </div>
+</body>
+</html>
